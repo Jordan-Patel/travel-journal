@@ -1,0 +1,43 @@
+.card--list {
+  width: 75%;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  height: 300px;
+  padding: 30px 0;
+
+  .card--image {
+    width: 225px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .card--info {
+    padding: 10px;
+  }
+
+  .card--title {
+    font-size: 32px;
+    margin-top: 0;
+  }
+
+  .card--date {
+    font-weight: 600;
+  }
+
+  .card--location {
+    display: flex;
+  }
+
+  .card--map-link {
+    color: #918E9B;
+    font-weight: 100;
+  }
+
+  .card--icon {
+    color: #f55a5a;
+  }
+}
